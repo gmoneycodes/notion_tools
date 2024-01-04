@@ -1,0 +1,436 @@
+{
+    "object": "list",
+    "results": [
+        {
+            "object": "block",
+            "id": "a888db97-0e41-4094-88ec-dca748091296",
+            "parent": {
+                "type": "page_id",
+                "page_id": "9dc1cff1-b6e1-4172-ab35-cb42a1b4bfda"
+            },
+            "created_time": "2023-12-09T14:04:00.000Z",
+            "last_edited_time": "2023-12-09T14:04:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "97eafb56-9524-418d-a834-2e879d8199fb"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "97eafb56-9524-418d-a834-2e879d8199fb"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "heading_3",
+            "heading_3": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Q1",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": true,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Q1",
+                        "href": null
+                    }
+                ],
+                "is_toggleable": false,
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "99f3a3d3-3a0b-4ddf-b0fe-a3f93736d16c",
+            "parent": {
+                "type": "page_id",
+                "page_id": "9dc1cff1-b6e1-4172-ab35-cb42a1b4bfda"
+            },
+            "created_time": "2023-12-09T14:04:00.000Z",
+            "last_edited_time": "2023-12-09T14:06:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "97eafb56-9524-418d-a834-2e879d8199fb"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "97eafb56-9524-418d-a834-2e879d8199fb"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Given an uniformly-distributed random variable ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Given an uniformly-distributed random variable ",
+                        "href": null
+                    },
+                    {
+                        "type": "equation",
+                        "equation": {
+                            "expression": "X"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "X",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " that takes only integers from  ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " that takes only integers from  ",
+                        "href": null
+                    },
+                    {
+                        "type": "equation",
+                        "equation": {
+                            "expression": "a"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "a",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " to  ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " to  ",
+                        "href": null
+                    },
+                    {
+                        "type": "equation",
+                        "equation": {
+                            "expression": "b"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "b",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "  inclusive and",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "  inclusive and",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "d89c76eb-69e1-4c6e-af69-33c6045352f7",
+            "parent": {
+                "type": "page_id",
+                "page_id": "9dc1cff1-b6e1-4172-ab35-cb42a1b4bfda"
+            },
+            "created_time": "2023-12-09T14:04:00.000Z",
+            "last_edited_time": "2023-12-09T14:04:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "97eafb56-9524-418d-a834-2e879d8199fb"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "97eafb56-9524-418d-a834-2e879d8199fb"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "equation",
+            "equation": {
+                "expression": "[ P(3 \\leq X \\leq 7) = \\frac{1}{21} ]"
+            }
+        },
+        {
+            "object": "block",
+            "id": "de3241cf-8a1a-4e76-bb1e-82c9134db1a8",
+            "parent": {
+                "type": "page_id",
+                "page_id": "9dc1cff1-b6e1-4172-ab35-cb42a1b4bfda"
+            },
+            "created_time": "2023-12-09T14:04:00.000Z",
+            "last_edited_time": "2023-12-09T14:04:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "97eafb56-9524-418d-a834-2e879d8199fb"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "97eafb56-9524-418d-a834-2e879d8199fb"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "equation",
+            "equation": {
+                "expression": "[ P(0 \\leq X \\leq 5) = \\frac{1}{35} ]"
+            }
+        },
+        {
+            "object": "block",
+            "id": "0424ac17-f00b-4684-8409-1f81cae81a96",
+            "parent": {
+                "type": "page_id",
+                "page_id": "9dc1cff1-b6e1-4172-ab35-cb42a1b4bfda"
+            },
+            "created_time": "2023-12-09T14:04:00.000Z",
+            "last_edited_time": "2023-12-09T14:04:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "97eafb56-9524-418d-a834-2e879d8199fb"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "97eafb56-9524-418d-a834-2e879d8199fb"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "What is  ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "What is  ",
+                        "href": null
+                    },
+                    {
+                        "type": "equation",
+                        "equation": {
+                            "expression": "P(90 \\leq X \\leq 110)"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "P(90 \\leq X \\leq 110)",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " , if  ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " , if  ",
+                        "href": null
+                    },
+                    {
+                        "type": "equation",
+                        "equation": {
+                            "expression": "a \\leq 3"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "a \\leq 3",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "  and (",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "  and (",
+                        "href": null
+                    },
+                    {
+                        "type": "equation",
+                        "equation": {
+                            "expression": "b \\geq 10"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "b \\geq 10",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " ?",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " ?",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "50fd8ed7-1fb9-47c9-9799-d31904d4f97b",
+            "parent": {
+                "type": "page_id",
+                "page_id": "9dc1cff1-b6e1-4172-ab35-cb42a1b4bfda"
+            },
+            "created_time": "2023-12-09T14:04:00.000Z",
+            "last_edited_time": "2023-12-09T14:04:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "97eafb56-9524-418d-a834-2e879d8199fb"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "97eafb56-9524-418d-a834-2e879d8199fb"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "2478d062-b408-403f-8c19-2616ceb4248f",
+            "parent": {
+                "type": "page_id",
+                "page_id": "9dc1cff1-b6e1-4172-ab35-cb42a1b4bfda"
+            },
+            "created_time": "2023-12-08T15:54:00.000Z",
+            "last_edited_time": "2023-12-08T15:54:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "97eafb56-9524-418d-a834-2e879d8199fb"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "97eafb56-9524-418d-a834-2e879d8199fb"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [],
+                "color": "default"
+            }
+        }
+    ],
+    "next_cursor": null,
+    "has_more": false,
+    "type": "block",
+    "block": {},
+    "request_id": "7789838d-7471-4a9e-8786-3467aa82a7de"
+}
