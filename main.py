@@ -3,8 +3,7 @@ import re
 import json
 from rich import print as pretty_print
 from utils import link2id, fetch_notion_data, dump_json
-from process import parse_text
-from process import add_text, add_eq_inline, add_eq_block, create_new_paragraph
+from process import *
 from dotenv import load_dotenv
 from notion_client import Client
 from notion_client.api_endpoints import BlocksChildrenEndpoint
@@ -21,10 +20,6 @@ def run():
         data = fetch_notion_data (client=client, id=page_id)
         # dump_json(data)
         last_block_id = data['results'][-1].get('id')
-        test_block = create_new_paragraph()
-        add_text(test_block, "hellloooooooo mamamia lezatos")
-        add_eq_inline(test_block, text="e = mc^2")
-        pretty_print(test_block)
 
         example_str = r"""
         To solve this problem, we'll use the properties of a uniformly distributed discrete random variable. The probability of any one integer in this distribution is the same for all integers in the range \([a, b]\). That is, the probability of a single integer is \(\frac{1}{n}\), where \(n\) is the number of integers in the range.
@@ -52,29 +47,13 @@ Thus, \(P(90 \leq X \leq 110) = 0\) under the given constraints.
         """
         str_array = parse_text(example_str)
 
-        def str2json(str_array):
-            re_parentheses = r'^\\\(.*?\\\)$'
-            re_sqbrackets = r'^\\\[.*?\\\]$'
-
-            output_json = create_new_paragraph()
-            for idx, strs in enumerate(str_array):
-                if re.match(re_parentheses, strs):
-                    add_eq_inline(output_json, strs)
-                elif re.match(re_sqbrackets, strs):
-                    add_eq_block(output_json, strs)
-                else:
-                    add_text(output_json, strs)
-            return output_json
         pretty_print(str_array)
-        out = str2json(str_array)
+        out = str2json(str_array, kind="answer")
         pretty_print(out)
         client.blocks.children.append(last_block_id, children=out)
 
 
 
-    # Append the content to the block
-    #client.blocks.children.append(last_block_id, children=test_block)
-    #client.blocks.children.append(last_block_id, children=children_blocks)
 
 
 # Press the green button in the gutter to run the script.
